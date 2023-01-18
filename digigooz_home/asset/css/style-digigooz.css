@@ -239,6 +239,9 @@ h6 {
 .text-normal{
     font-weight: normal;
 }
+.text-200{
+    font-weight: 200;
+}
 
 @media screen and (max-width: 640px) {
     body{
@@ -3314,6 +3317,7 @@ ul.packages li i.fa-times {
    Footer
 ====================================== */
 
+
 .footer-social li {
     display: inline-block;
 }
@@ -3371,6 +3375,13 @@ ul.packages li i.fa-times {
     background-position: right center;
 }
 
+@media screen and (max-width: 460px) {
+    .footer .title img{
+        width:50%;
+        opacity: .7;
+        padding-bottom: 20px;
+    }
+}
 
 /* ===================================
     Error & Coming Soon Page
@@ -4871,11 +4882,6 @@ ul.count_down.white li p:nth-child(2) {
     .contact-form.left {
         padding: 4.5rem 0;
     }
-
-    .title h2 {
-        font-size: 2.2rem !important;
-    }
-
 
     .title {
         margin-bottom: 0;
