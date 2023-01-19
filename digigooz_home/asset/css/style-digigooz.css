@@ -88,7 +88,10 @@ p {
     color: rgba(233, 235, 238, 0.904);
 
 }
-
+.title h2{
+    line-height: 1.2;
+    font-weight: 500!important;
+}
 h6,
 .blog-text h2,
 .title h2 {
@@ -222,7 +225,7 @@ h2 {
 }
 .h3,
 h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 .h4,
 h4 {
@@ -881,6 +884,7 @@ header a.logo img {
     margin: 0;
     padding: 0;
     list-style: none;
+    font-size: 15px;
 }
 
 .menu-line {
